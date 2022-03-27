@@ -1,0 +1,35 @@
+#announce, #msg, .navbar {
+    display:none;
+}
+
+#myTable > tr > th, #myTable > tr > td:nth-child(3), #prodTable > thead > tr > th:nth-child(1), #prodTable > thead > tr > th:nth-child(3) {
+    display:none
+}
+
+.table-success {
+    --bs-table-bg: #00eaff;
+    border-color: #333333;
+}
+
+.table {
+    color:#eeeeee;
+    border-color: #999999
+}
+
+body {
+    background-color:#1e1e1e
+}
+
+#prodTable > thead > tr:first-child {
+    border-color: #333333;
+}
+
+.table-success a {
+    color: #222222;
+    text-decoration: none;
+}
+
+a {
+    color: #eeeeee;
+    text-decoration: none;
+}
