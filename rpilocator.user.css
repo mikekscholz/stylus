@@ -1,0 +1,49 @@
+/* ==UserStyle==
+@name         rpilocator condensed dark
+@version      1.0.0
+@description  Simplified rpilocator for floating live update panel
+@namespace    https://github.com/mikekscholz/stylus
+@author       mikekscholz
+@homepageURL  https://github.com/mikekscholz/stylus
+@supportURL   https://github.com/mikekscholz/stylus/issues
+@updateURL    https://raw.githubusercontent.com/mikekscholz/stylus/main/rpilocator.user.css
+@license      CC-BY-SA-4.0
+==/UserStyle== */
+
+@-moz-document domain("rpilocator.com") {
+#announce, #msg, .navbar {
+    display:none;
+}
+
+#myTable > tr > th, #myTable > tr > td:nth-child(3), #prodTable > thead > tr > th:nth-child(1), #prodTable > thead > tr > th:nth-child(3) {
+    display:none
+}
+
+.table-success {
+    --bs-table-bg: #00eaff;
+    border-color: #333333;
+}
+
+.table {
+    color:#eeeeee;
+    border-color: #999999
+}
+
+body {
+    background-color:#1e1e1e
+}
+
+#prodTable > thead > tr:first-child {
+    border-color: #333333;
+}
+
+.table-success a {
+    color: #222222;
+    text-decoration: none;
+}
+
+a {
+    color: #eeeeee;
+    text-decoration: none;
+}
+}
