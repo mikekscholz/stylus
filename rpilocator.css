@@ -10,6 +10,7 @@
 @license      CC-BY-SA-4.0
 ==/UserStyle== */
 
+@-moz-document domain("rpilocator.com") {
 #announce, #msg, .navbar {
     display:none;
 }
@@ -44,4 +45,5 @@ body {
 a {
     color: #eeeeee;
     text-decoration: none;
+}
 }
