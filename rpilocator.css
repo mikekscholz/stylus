@@ -1,3 +1,15 @@
+/* ==UserStyle==
+@name         rpilocator condensed dark
+@version      1.0.0
+@description  Simplified rpilocator for floating live update panel
+@namespace    https://github.com/mikekscholz/stylus
+@author       mikekscholz
+@homepageURL  https://github.com/mikekscholz/stylus
+@supportURL   https://github.com/mikekscholz/stylus/issues
+@updateURL    https://raw.githubusercontent.com/mikekscholz/stylus/main/rpilocator.css
+@license      CC-BY-SA-4.0
+==/UserStyle== */
+
 #announce, #msg, .navbar {
     display:none;
 }
