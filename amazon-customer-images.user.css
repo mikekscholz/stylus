@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name         Amazon Customer Images
+@version      1.0.0
+@description  Modifies the customer images lightbox forward/back button overlays to allow right clicking to open images full size in new tab
+@namespace    https://github.com/mikekscholz/stylus
+@author       mikekscholz
+@homepageURL  https://github.com/mikekscholz/stylus
+@supportURL   https://github.com/mikekscholz/stylus/issues
+@updateURL    https://raw.githubusercontent.com/mikekscholz/stylus/main/amazon-customer-images.user.css
+@license      CC-BY-SA-4.0
+==/UserStyle== */
+@-moz-document domain("amazon.com") {
+    .reviewsLightbox .immersiveView .backButtonContainer, .cr-lightbox-navigator-container.cr-lightbox-navigator-container__back {
+        width: 10%;
+    }
+    .reviewsLightbox .immersiveView .nextButtonContainer,  .cr-lightbox-navigator-container.cr-lightbox-navigator-container__next{
+        width: 10%;
+    }
+}
