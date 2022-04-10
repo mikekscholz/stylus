@@ -1,17 +1,17 @@
 /* ==UserStyle==
 @name         rpilocator condensed dark
-@version      1.0.0
+@version      1.0.2
 @description  Simplified rpilocator for floating live update panel
-@namespace    https://github.com/mikekscholz/stylus
+@namespace    https://github.com/mikekscholz/userStyles
 @author       mikekscholz
-@homepageURL  https://github.com/mikekscholz/stylus
-@supportURL   https://github.com/mikekscholz/stylus/issues
-@updateURL    https://raw.githubusercontent.com/mikekscholz/stylus/main/rpilocator.user.css
+@homepageURL  https://github.com/mikekscholz/userStyles
+@supportURL   https://github.com/mikekscholz/userStyles/issues
+@updateURL    https://raw.githubusercontent.com/mikekscholz/userStyles/main/rpilocator.user.css
 @license      CC-BY-SA-4.0
 ==/UserStyle== */
 
 @-moz-document domain("rpilocator.com") {
-#announce, #msg, .navbar {
+#announce, #msg, .navbar, span.badge.rounded-pill.bg-warning.text-dark {
     display:none;
 }
 
